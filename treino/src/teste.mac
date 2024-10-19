@@ -1,0 +1,5 @@
+ROUTINE teste
+teste ; teste
+	s (a,b,c,d)=100
+	w !,"Hello World!"," - ",b
+	q

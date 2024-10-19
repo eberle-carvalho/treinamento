@@ -1,0 +1,29 @@
+ROUTINE Exercicio5
+Exercicio4
+
+	for i=1:1  {
+
+	Read !,"Matricula......: ",matricula
+	quit:matricula=""
+	Read !,"Nome Completo..: ",nomeCompleto
+	Read !,"Telefone.......: ",telefone
+	Read !,"Data Nascimento: ",dataNacimento
+	Read !,"Sexo...........: ",sexo
+	
+
+	Set ^tAluno(i,"matricula")=matrucula
+	Set ^tAluno(i,"nome")=nomeCompleto
+	Set ^tAluno(i,"telefone")=telefone
+	Set ^tAluno(i,"dataNascimento")=dataNascimento
+	Set ^tAluno(i,"Sexo")=sexo
+	
+
+	}
+	
+	s r0="" f   {
+				s r0=$o(^tAluno(r0)),r1="" q:r0=""  f  
+					{
+					s r1=$o(^tAluno(r0,r1),1,reg) q:r1=""  w !,r0," - ",r1," - ",reg
+					}
+				}
+					

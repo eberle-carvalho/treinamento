@@ -1,0 +1,5 @@
+ROUTINE Exercicio6
+Exercicio6
+ read !,"Data : ",dt
+ write !,$zdateh(dt,4)
+ 

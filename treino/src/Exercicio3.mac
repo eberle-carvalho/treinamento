@@ -1,0 +1,22 @@
+ROUTINE Exercicio3
+Exercicio3
+	Read "Digite Primeiro Número: ",num1
+	Read "Digite Primeiro Número: ",num2
+	Read "Digite Primeiro Número: ",num3
+	
+	set (cont,soma)=0
+	for i=num1:1:num2
+		{
+			if i#11=5 w !,"Resto de "_i_" é: ",5 set cont=cont+i
+			set soma=soma+i
+		}
+		
+	set cont1=0 for i=num2:1:num3
+		{
+			if i#3=0
+			{
+			w !,"Números entre Num2 e Num3: ",i set cont1=cont1+i
+			}
+		}
+		
+	w !,"A Soma Total é: ",soma,!,"A soma de Num1 e Num2: ",cont,!,"Soma de Num2 e Num3: ",cont1	

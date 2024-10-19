@@ -1,0 +1,9 @@
+ROUTINE Exercicio1
+Exercicio1
+	Read "Digite inicio: ",x
+	Read "Digite Final.: ",y
+	
+	for a=x:1:y
+	{
+		write:a#2=0 !,a
+	} 
